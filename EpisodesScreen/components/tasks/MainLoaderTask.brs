@@ -11,7 +11,7 @@ sub GetContent()
     ' request the content feed from the API
     xfer = CreateObject("roURLTransfer")
     xfer.SetCertificatesFile("common:/certs/ca-bundle.crt")
-    xfer.SetURL("https://syndication.boxcast.com/direct-publisher/le9xkybeh5hljpxwvqi0.json")
+    xfer.SetURL("https://syndication.boxcast.com/direct-publisher/rkqmarsenvlijfvasfqt.json")
     rsp = xfer.GetToString()
     rootChildren = []
     rows = {}
